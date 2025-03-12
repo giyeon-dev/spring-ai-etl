@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: backend
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+file:
+  upload-dir: uploads/
+
+gemini:
+  api-key: "AIzaSyD3j_XaWvfGCmBcZqL2UpIfnNuqVUC8tt0"
+
